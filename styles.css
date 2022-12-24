@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Square+Peg&display=swap');
+
+*{
+    padding:0px
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+    /* font-family: 'Square Peg', cursive; */
+}
+section{ 
+    display:block;
+    width: 100%;
+    height: 100vh;
+
+}
+header{
+   position: relative;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo 
+{
+    position: relative;
+    max-width: 80px;
+    
+} 
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    padding:10px 30px;
+}
+header ul li a{
+    text-decoration: none;
+    color:#000;
+}
+.content{ 
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top:80px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.textbox{
+    /* position: relative; */
+    max-width: 600px;
+    margin-left: 40px;
+    font-size: 16px;
+}
+.textbox h2{
+    font-size: 3rem;
+    font-weight:400 ;
+    line-height: 1.4em;
+    
+}
+.textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius:40px;
+    text-decoration: none;
+    background-color: rgb(18, 110, 47);
+}
+.textbox h2 span{
+    font-weight:900;
+    font-size:3rem ;
+    color: rgb(4, 111, 35);
+}
+.pictures{ margin-bottom: 80px;
+    margin-right: 60px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    ;
+}
+.pictures .starbucks{
+    max-width: 270px;
+    /* margin-right: 10px; */
+    /* margin-top: 10px; */
+}
+.links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.links .social-media{
+    max-width: 40px;
+    padding: 10px;
+    
+}
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #017143;
+    clip-path: circle(600px at right 800px);
+
+}
+.thumb img{
+    max-width: 50px;
+    /* transform:(60px,40ps); */
+    margin-left: 30px;
+
+}
+.thumb {
+    bottom: 0;
+    right:120px;
+    display: flex;
+    position:relative;
+    justify-content:center;
+}
+.thumb li {
+    list-style: none;
+   
+}
+.thumb li a{
+ 
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+}
